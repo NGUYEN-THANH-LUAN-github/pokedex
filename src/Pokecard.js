@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Pokecard.css'
+import './styles/index.css'
 
 const POKE_API = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/'
 
@@ -12,7 +12,7 @@ class Pokecard extends Component {
     let imgSrc = `${POKE_API}${convertNum(this.props.id)}.png`
     return (
       <div className='Pokecard'>
-        <h1 className='Pokecard-title'>{this.props.name}</h1>
+        <p className='Pokecard-title'>{this.props.name}</p>
         <div className='Pokecard-image'>
           <img src={imgSrc} alt={this.props.name} />
         </div>
