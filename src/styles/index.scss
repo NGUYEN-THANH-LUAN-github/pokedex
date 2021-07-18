@@ -41,9 +41,9 @@ body {
 /* POKECARD */
 
 .Pokecard {
-    width: 280px;
+    width: 260px;
     @media (max-width: 657px) {
-        width: 140px;
+        width: 120px;
     }
     padding: 10px;
     margin: 10px;
@@ -60,7 +60,7 @@ body {
 }
 
 .Pokecard-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0.5rem 0 1rem;
     font-weight: 700;
 }
@@ -69,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 12rem;
+    height: 11rem;
     background-color: #eceff1;
     border-radius: 3px;
     margin-bottom: 1rem;
