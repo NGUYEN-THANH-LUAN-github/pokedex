@@ -1,3 +1,3 @@
 # pokedex
 
-[demo](https://nguyen-thanh-luan-github.github.io/pokedex/)
+[demo](https://thanh-luan-nguyen.github.io/pokedex/)
